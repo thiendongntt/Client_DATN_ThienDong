@@ -1,0 +1,33 @@
+.product__detail-detail__info {
+  margin: 16px 0px;
+  .info-description,
+  .info-rating {
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+    h3.title {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  }
+  .info-rating {
+    .rating-overrall {
+      span.amount {
+        font-size: 28px;
+        color: var(--my-red);
+      }
+    }
+    .rating-statistic {
+      padding: 0px 16px;
+      padding-right: 64px;
+      .rating-statistic-item__wrapper {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .rate__action {
+      margin: 32px;
+      text-align: center;
+    }
+  }
+}

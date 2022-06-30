@@ -1,0 +1,21 @@
+.notification-item {
+	display: flex;
+	align-items: center;
+	padding: 20px 24px;
+	border-bottom: 1px solid #f7f7f7;	
+	background-color: #F7FCFE;
+	&__content {
+		line-height: 16px;
+		padding: 0 16px;
+		flex: 1;
+	}
+	&__icon {
+		justify-self: flex-start;
+		margin-right: 8px;
+	}
+	&__timestamp {
+		justify-self: flex-end;
+		font-size: 12px;
+		opacity: .7;
+	}
+}
